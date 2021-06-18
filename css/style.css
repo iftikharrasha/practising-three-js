@@ -1,15 +1,63 @@
-/*
-font-family: 'PT Sans', sans-serif;
-*/
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	font-family: 'PT Sans', sans-serif;
-	color: 010101;
+	font-family: 'Roboto', sans-serif;
+	color: #010101;
 }
 
-/* header starts */
+.c_custom {
+	max-width: 1440px !important;
+}
+
+.project-tabs {
+    padding: 200px 35px 200px 0;
+    cursor: default;
+}
+
+.project-tabs h2 {
+    font-size: 28px;
+}
+
+.project-tabs h4 {
+    font-size: 16px;
+}
+
+.project-tabs p {
+    padding: 30px 0 30px 0;
+}
+
+.project_icon i {
+    font-size: 45px;
+    margin: 0 15px;
+    color: #e68966;
+    transition: -webkit-transform .2s linear;
+    transition: transform .2s linear;
+    transition: transform .2s linear,-webkit-transform .2s linear;
+}
+
+.products-tabs {
+    width: 90%;
+    padding-bottom: 40px;
+    margin: 60px auto 0;
+    cursor: pointer;
+}
+
+.project-img {
+    margin: 50px 0;
+}
+
+.project-img .my-div {
+    width: 100%;
+    max-height: 600px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-left: 35px;
+}
+
+.my-div canvas {
+    width: 774px!important;
+	height: 404px !important;
+}
